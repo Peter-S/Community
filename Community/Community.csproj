@@ -275,6 +275,7 @@
     <Content Include="Views\LogIn\Index.cshtml" />
     <Content Include="Views\LogIn\Result.cshtml" />
     <Content Include="Views\Registration\Register.cshtml" />
+    <Content Include="Views\Registration\Result.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
