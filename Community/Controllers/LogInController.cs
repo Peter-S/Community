@@ -27,12 +27,12 @@ namespace Community.Controllers
                            where r.PersonFirstName.Equals(lc.UserName)
                            select r.PersonKey).FirstOrDefault();
                 int rKey = (int)uid;
-                Session ["registrationKey"] = rKey;
+                Session ["ReviewerKey"] = rKey;
 
                 Class1Messages msg = new Class1Messages();
                 msg.MessageText = "Thank You, "
                 + lc.UserName
-                + "for login you can donate";
+                + " for login you can donate";
                 return RedirectToAction("Result", msg);
 
             }

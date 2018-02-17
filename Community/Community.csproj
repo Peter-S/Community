@@ -153,6 +153,7 @@
     <Compile Include="Controllers\BusinessRulesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LogInController.cs" />
+    <Compile Include="Controllers\NewDonationController.cs" />
     <Compile Include="Controllers\RegistrationController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -201,6 +202,7 @@
     <Compile Include="Models\LoginHistory.cs">
       <DependentUpon>CA.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\NewDonation.cs" />
     <Compile Include="Models\NewPerson.cs" />
     <Compile Include="Models\Person.cs">
       <DependentUpon>CA.tt</DependentUpon>
@@ -273,9 +275,9 @@
     <Content Include="Views\BusinessRules\Edit.cshtml" />
     <Content Include="Views\BusinessRules\Index.cshtml" />
     <Content Include="Views\LogIn\Index.cshtml" />
-    <Content Include="Views\LogIn\Result.cshtml" />
     <Content Include="Views\Registration\Register.cshtml" />
-    <Content Include="Views\Registration\Result.cshtml" />
+    <Content Include="Views\Shared\Result.cshtml" />
+    <Content Include="Views\NewDonation\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
